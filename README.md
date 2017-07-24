@@ -5,47 +5,19 @@ Minimal reproduction case repository for a bug in rum/Sablono handling of attrib
 
 ## Installation
 
-Requires [boot](http://boot-clj.com/)
+Requires [Boot](http://boot-clj.com/).
 
 ## Usage
 
-- `git clone [this repo]`
-
-Run the project directly:
-
-    $ boot run
-
-Run the project's tests (they'll fail until you edit them):
-
-    $ boot test
-
-Build an uberjar from the project:
-
-    $ boot build
-
-Run the uberjar:
-
-    $ java -jar target/rum-bug-class-0.1.0-SNAPSHOT-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+- `git clone https://github.com/DjebbZ/rum-bug-class.git`
+- `cd rum-bug-class`
+- `boot run`
+- `open index.html`
+- Open the DevTools of your web browser, you should see an error message.
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Khalid Jebbari
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
